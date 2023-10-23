@@ -41,5 +41,33 @@
     border-radius: 15px;
     font-size: 15px;
     font-weight: bolder;
+    margin-bottom: 10px;
 }
 
+#rgb {
+    border-radius: 50%;
+    height: 10%;
+    width: 60%;
+    background: linear-gradient(to right,rgb(255, 127, 133),mediumpurple);
+    outline: none;
+    margin-bottom: 5px;
+}
+
+#black{
+    border-radius: 50%;
+    height: 10%;
+    width: 60%;
+    background: black;
+    outline: none;
+    margin-bottom: 3px;
+}
+
+#state {
+    font-family: monospace;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    text-align: center;
+    color: rgb(0, 38, 59);
+}
